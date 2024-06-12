@@ -1,5 +1,6 @@
 import React from "react"
 import {View} from "react-native"
+import DisplayText from "./DisplayText";
 
 export default function App() {
   return (
@@ -14,7 +15,9 @@ export default function App() {
       <View style={{
         backgroundColor: 'gold',
         flex: 1,
-      }}/>
+      }}>
+        <DisplayText text="Hello!"/>
+      </View>
       <View style={{
         backgroundColor: 'tomato',
         flex: 1,
